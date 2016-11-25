@@ -21,4 +21,8 @@
 {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+-(void)didMoveToParentViewController:(UIViewController *)parent
+{
+    NSLog(@"XCTwoViewController ---被添加到父控制器");
+}
 @end

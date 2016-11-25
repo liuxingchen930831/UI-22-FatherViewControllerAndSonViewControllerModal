@@ -19,7 +19,9 @@
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
+    
     XCOneViewController *one = [[XCOneViewController alloc]init];
     [self presentViewController:one animated:YES completion:nil];
+    
 }
 @end

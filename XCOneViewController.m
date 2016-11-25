@@ -22,6 +22,9 @@
     two.view.autoresizingMask = UIViewAutoresizingNone;
     [self.view addSubview:two.view];
     [self addChildViewController:two];
+    //监听子控制器 添加到父控制器
+    [self.childViewControllers [0] didMoveToParentViewController:self];
+    
 }
 
 @end
